@@ -23,7 +23,6 @@ jobs:
   run:
     needs: deploy-runner
     runs-on: [self-hosted,cml-runner]
-    container: docker://dvcorg/cml
     steps:
       - uses: actions/checkout@v2
       - uses: actions/setup-python@v2

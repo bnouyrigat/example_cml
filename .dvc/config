@@ -1,0 +1,4 @@
+[core]
+    remote = myrepo
+['remote "myrepo"']
+    url = s3://s3-training-tfavance-mlops/dvc-registry
